@@ -1,0 +1,7 @@
+:root {
+    --gray:#F4F5F9;
+}
+
+.container{
+    min-height: 60vh;
+}
