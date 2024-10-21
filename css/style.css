@@ -5,3 +5,11 @@
 .container{
     min-height: 60vh;
 }
+
+.bg-gray{
+    background-color: #F4F5F9;
+}
+
+.link{
+    text-decoration: nome;
+}
