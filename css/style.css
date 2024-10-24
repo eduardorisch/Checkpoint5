@@ -15,6 +15,6 @@ body{
     text-decoration: none;
 }
 
-.container {
-    min-height: vh;
+.containerAltura {
+    min-height: 60vh;
 }

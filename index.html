@@ -45,8 +45,8 @@
     <!-- fim parte 1 -->
 
     <!-- parte 2 -->
-      <div class="container-md py-5 px-5 mt-4 bg-gray">
-        <div class="row d-inline-flex justify-content-between">
+      <div class="container containeAltura py-5 px-5 mt-4 bg-gray">
+        <div class="row d-flex justify-content-between row-gap-5">
             <div class="col-xl-6 col-md-6 col-xs-12 d-flex flex-column justify-content-center">
               <div class="d-flex align-items-start flex-column">
                 <h1 class="text-secondary">Nova coleção 2024</h1>
@@ -64,7 +64,7 @@
     <!-- parte 3 -->
      <div class="container my-5" id="col2024">
         <h3 class="text-center">Coleção 2024</h3>
-        <div class="row row-cols-auto my-4">
+        <div class="row row-gap-4 my-4">
             <div class="col-xl-4 col-md-4 col-xs-12">
                 <img src="./images/cat-img-1.jpg" class="img-fluid" alt="3 sueters de cores diferentes em cima de uma cadeira">
             </div>
@@ -139,23 +139,25 @@
       <!-- parte 5 -->
       <div class="container mt-5" id="prime">
         <h3 class="text-center mb-3">Prime</h3>
-        <div class="row row-cols-auto bg-gray py-3 px-5">
-            <div class="col-xl-2 col-md-2 col-xs-12">
-              <div class="row">
-                <div class="col-xl-6 col-md-6 col-xs-12">
-                  <img src="./images/product-detail-1.jpg" class="img-fluid mb-4" alt="relogio moderno de pulseira vermelha">
+        <div class="row bg-gray py-3 px-5 row-gap-4">
+            <div class="col-xl-2 col-md-2 col-xs-2">
+              <div class="row row-cols-auto row-gap-3">
+                <div class="col-xl-6 col-md-6 col-6">
+                  <img src="./images/product-detail-1.jpg" class="img-fluid" alt="relogio moderno de pulseira vermelha">
+                </div>
+                <div class="col-xl-6 col-md-6 col-6">
                   <img src="./images/product-detail-2.jpg" class="img-fluid" alt="relogio moderno de pulseira preta">
                 </div>
-                <div class="row">
-                <div class="col-xl-6 col-md-6 col-xs-6">
-                  <img src="./images/product-detail-3.jpg" class="img-fluid mb-4" alt="relogio moderno de pulseira branca">
+                <div class="col-xl-6 col-md-6 col-6">
+                  <img src="./images/product-detail-3.jpg" class="img-fluid" alt="relogio moderno de pulseira branca">
+                </div>
+                <div class="col-xl-6 col-md-6 col-6">
                   <img src="./images/product-detail-4.jpg" class="img-fluid" alt="relogio moderno de pulseira branca com o tempo em 14:59">
                 </div>
               </div>
-              </div>
                
             </div>
-            <div class="col-xl-5 col-md-5 col-xs-12">
+            <div class="col-xl-5 col-md-5 col-xs-5 ">
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
@@ -181,8 +183,8 @@
                     </button>
                   </div>
             </div>
-            <div class="col-xl-5 col-md-5 col-xs-12 d-flex flex-column">
-                <h3 class="fs-6 mt-3"><i class="bi bi-star-fill me-2"></i><i class="bi bi-star-fill me-2"></i><i class="bi bi-star-fill me-2"></i><i class="bi bi-star-fill"></i></h3>
+            <div class="col-xl-5 col-md-5 col-xs-5 d-flex flex-column">
+                <h3 class="fs-6 mt-3"><i class="bi bi-star-fill me-1"></i><i class="bi bi-star-fill me-1"></i><i class="bi bi-star-fill me-1"></i><i class="bi bi-star-fill"></i></h3>
                 <h2>Red Digital Watch</h2>
                 <h5 class="mb-3 fs-5 text-secondary">R$ 9999.99</h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eveniet, autem consequatur porro dolore iure quam recusandae hic, dolor aperiam non voluptatum quaerat odio eaque!</p>
@@ -195,15 +197,15 @@
       
       <!-- parte 6 -->
        <div class="container-fluid bg-dark mt-5 pt-4 ps-4">
-        <div class="row">
-            <div class="col-xl-6 col-md-6">
+        <div class="row row-gap-3">
+            <div class="col-xl-6 col-md-6 col-12">
                 <h3 class="text-light">Assine nossa newsletter</h3>
                 <div class="row">
-                  <div class="col-xl-6 col-md-6">
+                  <div class="col-xl-6 col-md-6 col-6">
                     <label for="email" class="form-label text-light">Email</label>
                     <input type="email" class="form-control" placeholder="Ex: email@gmail.com">
                   </div>
-                  <div class="col-xl-6 col-md-6">
+                  <div class="col-xl-6 col-md-6 col-6">
                     <label for="usuario" class="form-label text-light">Nome</label>
                     <input type="text" class="form-control" placeholder="Ex: Jorge Maranhão">
                   </div>
@@ -213,7 +215,7 @@
                 </div>
             </div>
 
-            <div class="col-xl-6 col-md-6 text-center">
+            <div class="col-xl-6 col-md-6 col-xs-6 text-center">
                     <h3 class="text-light">MatrixShop</h3>
                     <h5 class="text-light my-4">Baixe nosso app</h5>
                   <div class="d-flex justify-content-center">
@@ -221,16 +223,16 @@
                     <a href="" class="ms-3"><button type="button" class="btn btn-outline-light"><i class="bi bi-apple">Apple Store</i></button></a>
                   </div>
                   <div class="d-flex justify-content-center mt-3 mb-5">
-                    <a href="" class="text-light"><i class="bi bi-instagram fs-4 me-3"></i></a>
-                    <a href="" class="text-light"><i class="bi bi-facebook fs-4 me-3"></i></a>
-                    <a href="" class="text-light"><i class="bi bi-twitter-x fs-4 me-3"></i></a>
-                    <a href="" class="text-light"><i class="bi bi-youtube fs-4 me-3"></i></a>
+                    <a href="" class="text-light"><i class="bi bi-instagram fs-4 me-4"></i></a>
+                    <a href="" class="text-light"><i class="bi bi-facebook fs-4 me-4"></i></a>
+                    <a href="" class="text-light"><i class="bi bi-twitter-x fs-4 me-4"></i></a>
+                    <a href="" class="text-light"><i class="bi bi-youtube fs-4 me-4"></i></a>
                   </div>
             </div>
         </div>
 
         <span class="border-top text-light py-1 d-flex justify-content-center ">Desenvolvido por: Eduardo Risch rm:555212 - Caroline Rocha rm:556708</span>
        </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
